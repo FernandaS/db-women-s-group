@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDZNE3OV0BBweZrxfIEtqjIkJy-WxtKHhw",
-    authDomain: "db-women-s-group.firebaseapp.com",
-    databaseURL: "https://db-women-s-group.firebaseio.com",
-    projectId: "db-women-s-group",
-    storageBucket: "db-women-s-group.appspot.com",
-    messagingSenderId: "713587026005"
+    apiKey: 'AIzaSyDZNE3OV0BBweZrxfIEtqjIkJy-WxtKHhw',
+    authDomain: 'db-women-s-group.firebaseapp.com',
+    databaseURL: 'https://db-women-s-group.firebaseio.com',
+    projectId: 'db-women-s-group',
+    storageBucket: 'db-women-s-group.appspot.com',
+    messagingSenderId: '713587026005'
   }
 };

@@ -1,0 +1,36 @@
+.lyric-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lyric-container {
+  padding: 1em;
+  width: 33%;
+}
+
+.lyric-container:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+.lyric-number {
+  position: absolute;
+}
+
+.lyric-title {
+  margin-left: 30px;
+}
+
+.lyric-title--artist {
+  font-family: Oswald;
+}
+.lyric-title--title {
+  font-size: 14px;
+}
+
+.lyric-link {
+  color: black;
+}
+
+.lyric-link:hover {
+  text-decoration: none;
+}

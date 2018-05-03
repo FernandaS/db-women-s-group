@@ -1,0 +1,6 @@
+.background-img {
+  background-image: url("../assets/images/love-expressed.jpg");
+  /* opacity: 0.85; */
+  height: 500px;
+  background-repeat: no-repeat;
+}

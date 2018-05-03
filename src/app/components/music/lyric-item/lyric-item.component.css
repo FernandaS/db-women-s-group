@@ -1,0 +1,13 @@
+.container {
+  background-color: white;
+  margin-top: -70px;
+  margin-bottom: 2em;
+  border: .5px solid #307559;
+  box-shadow: inset 0 0 5px #307559;
+  min-height: 500px;
+
+}
+
+.music {
+  padding: 1em;
+}

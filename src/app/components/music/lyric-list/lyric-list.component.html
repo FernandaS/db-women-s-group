@@ -1,3 +1,12 @@
-<p>
-  lyric-list works!
-</p>
+<div class="lyric-list">
+  <div class="lyric-container" *ngFor="let music of musics | async; let i = index">
+    <span class="lyric-number">{{i + 1}}.</span>
+    <a class="lyric-link" routerLink="/lyrics/{{music.id}}">
+      <div class="lyric-title">
+        <h5 class="lyric-title--artist">{{music.artist}}</h5>
+        <h6 class="lyric-title--title">{{music.songTitle}}</h6>
+      </div>
+    </a>
+  </div>
+</div>
+
