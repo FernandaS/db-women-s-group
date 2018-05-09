@@ -2,5 +2,19 @@
   background-image: url("../assets/images/love-expressed.jpg");
   /* opacity: 0.85; */
   height: 500px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+}
+
+.nav--menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding-top: 1em;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
+  font-size: 18px;
 }

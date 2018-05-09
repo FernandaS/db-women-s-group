@@ -22,6 +22,7 @@ import { LyricItemComponent } from './components/music/lyric-item/lyric-item.com
 // Services
 import { MusicService } from './services/music.service';
 import { AppRoutingModule } from './/app-routing.module';
+import { SearchMusicComponent } from './components/music/search-music/search-music.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './/app-routing.module';
     MusicComponent,
     LyricListComponent,
     LyricItemComponent,
+    SearchMusicComponent,
   ],
   imports: [
     BrowserModule,

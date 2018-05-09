@@ -1,0 +1,14 @@
+<div class="search--container">
+  <div class="input--wrapper">
+    <i class="fas fa-search"></i>
+    <input class="search" type="text" placeholder="Search Song" #searchBox id="search-box" (keyup)="search(searchBox.value)">
+  </div>
+
+  <ul class="search-result">
+    <li *ngFor="let music of music$ | async" >
+      <a routerLink="/detail/{{music.id}}">
+        {{music.artist}}
+      </a>
+    </li>
+  </ul>
+</div>
